@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chessboard{
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+}
+
+.antiquewhite{
+    background-color: antiquewhite;
+}
+.darkgreen{
+    background-color: #246321;
+}
+.chess-piece{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+#info{
+    height: 30px;
+}
+.highlight{
+    background-color: brown;
+}
+
+.target{
+    border: 10px solid #000;
+    box-sizing: border-box;
+}
